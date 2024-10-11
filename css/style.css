@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.input-group::after {
+    position: relative;
+    content: "";
+    bottom: -17px;
+    width: 100%;
+    height: 1px;
+    background-color: #ced4da;
+    z-index: 999;
+}
+
+.clock-block {
+    width: 180px;
+    font-size: 18px;
+}
+
+.weather-block {
+    min-width: 250px;
+}
+
+.location-btn {
+    font-size: 10px;
+}
+
+.temp {
+    font-size: 25px;
+}
